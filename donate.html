@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Support BitQuest</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    @font-face {
+      font-family: 'GameFont';
+      src: url('Game-Font.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    :root {
+      --bg: #1b1a17;
+      --text: #e4dfd9;
+      --accent: #c2b280;
+      --link-hover: #f7e6c4;
+    }
+
+    body {
+      margin: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'GameFont', monospace;
+      font-size: 48px;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    h1 {
+      font-size: 96px;
+      color: var(--accent);
+    }
+
+    p {
+      font-size: 24px;
+      max-width: 700px;
+      margin: 2rem auto;
+      line-height: 1.7;
+      font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+    }
+
+    .donate-options {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 4rem;
+      margin-top: 3rem;
+    }
+
+    .btc-box, .kofi-box {
+      background-color: #2a2925;
+      padding: 2rem;
+      border-radius: 20px;
+      width: 320px;
+    }
+
+    .btc-box img {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 1rem;
+    }
+
+    .btc-box p {
+      font-size: 18px;
+      word-break: break-word;
+    }
+
+    .btc-box i {
+      font-size: 36px;
+      margin-bottom: 0.5rem;
+      color: var(--accent);
+    }
+
+    .kofi-box iframe {
+      border: none;
+      width: 100%;
+      padding: 0;
+      background: #f9f9f9;
+      border-radius: 12px;
+    }
+
+    footer {
+      margin-top: 5rem;
+      font-size: 24px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <h1>Support BitQuest</h1>
+  <p>
+    BitQuest is built by one indie dev pouring every spare hour into crafting a game worth playing.  
+    If you'd like to help me turn this into a full-time dream, your support truly makes it possible.
+  </p>
+
+  <div class="donate-options">
+    <div class="btc-box">
+      <i class="fab fa-bitcoin"></i>
+      <br>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=bc1q0zqm3cf39qpvkxcq0h99mf4cur4xs5dhglv875" alt="Bitcoin QR Code" />
+      <p>bc1q0zqm3cf39qpvkxcq0h99mf4cur4xs5dhglv875</p>
+    </div>
+
+    <div class="kofi-box">
+      <iframe id="kofiframe" src="https://ko-fi.com/lastlifegames/?hidefeed=true&widget=true&embed=true&preview=true" height="712" title="lastlifegames"></iframe>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Last Life Games
+  </footer>
+</body>
+</html>
+

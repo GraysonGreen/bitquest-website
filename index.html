@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BitQuest | Last Life Games</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-pvN0DPe9X1nUQ2u4N9yT1wW5KYZkJmDy6/vVY3s1XD9+ErMZ2wD3+R/MRpOEgXnD69E4Y8DJnN85R25eYwEXyg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    @font-face {
+      font-family: 'GameFont';
+      src: url('Game-Font.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    :root {
+      --bg: #1b1a17;
+      --text: #e4dfd9;
+      --accent: #c2b280;
+      --link: #ddd0b1;
+      --link-hover: #f7e6c4;
+      --header: #25231f;
+      --border: #3c3a36;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'GameFont', monospace;
+      background-color: var(--bg);
+      color: var(--text);
+      font-size: 48px;
+    }
+
+    header {
+      background-color: var(--header);
+      padding: 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 1rem 0 0.5rem;
+      font-size: 110px;
+      color: var(--accent);
+    }
+
+    nav {
+      margin-bottom:3rem;
+      font-size: 36px;
+    }
+
+    nav a {
+      color: var(--link);
+      text-decoration: none;
+      margin: 0 3rem;
+      font-weight: bold;
+      transition: color 0.2s;
+      display: inline-flex;
+      align-items: center;
+      font-size: 45px;
+    }
+
+    nav a i {
+      margin-right: 0.4rem;
+      font-size: 36px;
+    }
+
+    nav .support-button {
+      background-color: var(--accent);
+      color: #1b1a17;
+      padding: 0.5rem 1rem;
+      border-radius: 16px;
+      font-size: 45px;
+      margin-left: 2rem;
+    }
+
+    nav .support-button:hover {
+      background-color: var(--link-hover);
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      font-size: 20px;
+    }
+
+    .content-banner img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      display: block;
+      margin: 0 auto 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+
+    section {
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 84px;
+      margin-bottom: 0.25rem;
+      margin-top: 2rem;
+    }
+
+    p {
+      line-height: 1.7;
+      font-size: 24px;
+      font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 32px;
+      color: #aaa;
+      border-top: 1px solid var(--border);
+    }
+
+    .bottom-steam {
+      margin-top: 3rem;
+      text-align: center;
+    }
+
+    .bottom-steam a {
+      font-size: 65px;
+      font-weight: bold;
+      color: #1b1a17;
+      background-color: var(--accent);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-radius: 16px;
+    }
+
+    .bottom-steam a i {
+      margin-right: 1rem;
+      font-size: 36px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BitQuest</h1>
+    <nav>
+      <a href="https://discord.gg/YOUR_INVITE_LINK" target="_blank"><i class="fab fa-discord"></i>Join Discord</a>
+      <a href="https://store.steampowered.com/app/YOUR_STEAM_ID" target="_blank"><i class="fab fa-steam"></i>Wishlist on Steam</a>
+      <a class="support-button" href="donate.html">Support Dev</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content-banner">
+      <img src="bitquest-header.png" alt="BitQuest Banner">
+    </div>
+
+    <section>
+      <h2>Survive. Discover. Thrive.</h2>
+      <p>
+        BitQuest is a pixel-art multiplayer adventure game set in a mysterious world full of secrets, survival, and strange beauty.
+        Explore the wilderness, uncover hidden lore, and forge your own path. Just you, the wild, and whatever you’re willing to discover.
+      </p>
+    </section>
+
+    <section>
+      <h2>Join the Community</h2>
+      <p>
+        Connect with fellow adventurers in our <a href="https://discord.gg/YOUR_INVITE_LINK" target="_blank">Discord</a> and help shape the future of BitQuest.
+        We're building this together — your feedback matters.
+      </p>
+    </section>
+
+    <section>
+      <h2>About Last Life Games</h2>
+      <p>
+        BitQuest is the debut title from <strong>Last Life Games</strong>, a solo indie dev project by one stubborn developer making the game they always wanted to play.
+        Minimal budget. Maximum soul. Stay tuned — there's more to come.
+      </p>
+    </section>
+
+    <div class="bottom-steam">
+      <a href="https://store.steampowered.com/app/YOUR_STEAM_ID" target="_blank">
+        <i class="fab fa-steam"></i>Wishlist BitQuest on Steam
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Last Life Games. All rights reserved.
+  </footer>
+</body>
+</html>
+
